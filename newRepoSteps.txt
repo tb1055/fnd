@@ -1,4 +1,6 @@
+###############################
 Steps to Start a New Repository
+###############################
 
 1. On GitHub, navigate to the main page of the repository.
 
@@ -16,3 +18,19 @@ Steps to Start a New Repository
 
 
 source: https://help.github.com/articles/cloning-a-repository/
+
+
+
+git config --get remote.origin.url
+
+git config --get user.name
+
+git config --get user.email
+
+
+git add .
+
+git commit -a
+
+git push -u origin master
+
